@@ -51,7 +51,7 @@ namespace Autoprem
         {
             if (funcionarios.Count == 0)
             {
-                Console.WriteLine("Nenhum funcionário cadastrado.");
+                Console.WriteLine("Nenhum funcionário encontrado.");
             }
             else
             {
