@@ -1,0 +1,15 @@
+/Users/tomassilva/Desktop/POO/trabalhos/trabalhoPOO_20451_20456_Fase1/Veiculo/Veiculo/bin/Debug/net7.0/Autoprem
+/Users/tomassilva/Desktop/POO/trabalhos/trabalhoPOO_20451_20456_Fase1/Veiculo/Veiculo/bin/Debug/net7.0/Autoprem.deps.json
+/Users/tomassilva/Desktop/POO/trabalhos/trabalhoPOO_20451_20456_Fase1/Veiculo/Veiculo/bin/Debug/net7.0/Autoprem.runtimeconfig.json
+/Users/tomassilva/Desktop/POO/trabalhos/trabalhoPOO_20451_20456_Fase1/Veiculo/Veiculo/bin/Debug/net7.0/Autoprem.dll
+/Users/tomassilva/Desktop/POO/trabalhos/trabalhoPOO_20451_20456_Fase1/Veiculo/Veiculo/bin/Debug/net7.0/Autoprem.pdb
+/Users/tomassilva/Desktop/POO/trabalhos/trabalhoPOO_20451_20456_Fase1/Veiculo/Veiculo/obj/Debug/net7.0/Autoprem.csproj.AssemblyReference.cache
+/Users/tomassilva/Desktop/POO/trabalhos/trabalhoPOO_20451_20456_Fase1/Veiculo/Veiculo/obj/Debug/net7.0/Autoprem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tomassilva/Desktop/POO/trabalhos/trabalhoPOO_20451_20456_Fase1/Veiculo/Veiculo/obj/Debug/net7.0/Autoprem.AssemblyInfoInputs.cache
+/Users/tomassilva/Desktop/POO/trabalhos/trabalhoPOO_20451_20456_Fase1/Veiculo/Veiculo/obj/Debug/net7.0/Autoprem.AssemblyInfo.cs
+/Users/tomassilva/Desktop/POO/trabalhos/trabalhoPOO_20451_20456_Fase1/Veiculo/Veiculo/obj/Debug/net7.0/Autoprem.csproj.CoreCompileInputs.cache
+/Users/tomassilva/Desktop/POO/trabalhos/trabalhoPOO_20451_20456_Fase1/Veiculo/Veiculo/obj/Debug/net7.0/Autoprem.dll
+/Users/tomassilva/Desktop/POO/trabalhos/trabalhoPOO_20451_20456_Fase1/Veiculo/Veiculo/obj/Debug/net7.0/refint/Autoprem.dll
+/Users/tomassilva/Desktop/POO/trabalhos/trabalhoPOO_20451_20456_Fase1/Veiculo/Veiculo/obj/Debug/net7.0/Autoprem.pdb
+/Users/tomassilva/Desktop/POO/trabalhos/trabalhoPOO_20451_20456_Fase1/Veiculo/Veiculo/obj/Debug/net7.0/Autoprem.genruntimeconfig.cache
+/Users/tomassilva/Desktop/POO/trabalhos/trabalhoPOO_20451_20456_Fase1/Veiculo/Veiculo/obj/Debug/net7.0/ref/Autoprem.dll
