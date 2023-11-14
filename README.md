@@ -11,14 +11,15 @@ Uma aplicação para a gestão de vendas de veículos, peças e serviços no set
 
 ## Estrutura do Projeto
 
-- `Autoprem.Core`: Contém as classes principais e a lógica de negócios.
-- `Autoprem.ConsoleApp`: Aplicativo de console para interação com o usuário.
-- ...
+- `Program.cs`: Ponto de entrada do aplicativo.
+- `Veiculo.cs`: Classe para representar um veículo.
+- `Componente.cs`: Classe para representar um componente.
+- `Funcionario.cs`: Classe para representar um funcionário.
+- `ServicoManutencao.cs`: Classe para representar um serviço de manutenção.
 
 ## Dependências
 
-- .NET Core 3.1
-- ...
+- .NET Core 7.1
 
 ## Como Contribuir
 
