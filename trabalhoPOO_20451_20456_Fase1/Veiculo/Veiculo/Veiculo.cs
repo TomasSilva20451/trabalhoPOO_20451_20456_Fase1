@@ -35,10 +35,19 @@ namespace Autoprem
         // Método para adicionar um novo veículo
         public static void AdicionarVeiculo(List<Veiculo> veiculos, Veiculo novoVeiculo)
         {
-            // Lógica para adicionar um novo veículo
-            veiculos.Add(novoVeiculo);
-            Console.WriteLine("Veículo adicionado com sucesso!");
+            // Verificar se o veículo já existe com base no ID
+            if (veiculos.Any(v => v.ID == novoVeiculo.ID))
+            {
+                Console.WriteLine($"Já existe um veículo com o ID {novoVeiculo.ID}. Não foi possível adicionar.");
+            }
+            else
+            {
+                // Adicionar o novo veículo
+                veiculos.Add(novoVeiculo);
+                Console.WriteLine("Veículo adicionado com sucesso!");
+            }
         }
+
 
         // Método para listar todos os veículos
         public static void ListarVeiculos(List<Veiculo> veiculos)

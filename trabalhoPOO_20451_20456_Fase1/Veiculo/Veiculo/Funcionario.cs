@@ -32,10 +32,19 @@ namespace Autoprem
         // Método para adicionar um novo funcionário
         public static void AdicionarFuncionario(List<Funcionario> funcionarios, Funcionario novoFuncionario)
         {
-            // Lógica para adicionar um novo funcionário
-            funcionarios.Add(novoFuncionario);
-            Console.WriteLine("Funcionário adicionado com sucesso!");
+            // Verificar se o funcionário já existe com base no ID
+            if (funcionarios.Any(f => f.ID == novoFuncionario.ID))
+            {
+                Console.WriteLine($"Já existe um funcionário com o ID {novoFuncionario.ID}. Não foi possível adicionar.");
+            }
+            else
+            {
+                // Adicionar o novo funcionário
+                funcionarios.Add(novoFuncionario);
+                Console.WriteLine("Funcionário adicionado com sucesso!");
+            }
         }
+
 
         // Método para listar todos os funcionários
         public static void ListarFuncionarios(List<Funcionario> funcionarios)

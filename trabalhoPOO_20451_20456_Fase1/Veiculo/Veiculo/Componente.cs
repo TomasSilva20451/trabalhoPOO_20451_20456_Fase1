@@ -32,10 +32,19 @@ namespace Autoprem
         // Método para adicionar um novo componente
         public static void AdicionarComponente(List<Componente> componentes, Componente novoComponente)
         {
-            // Lógica para adicionar um novo componente
-            componentes.Add(novoComponente);
-            Console.WriteLine("Componente adicionado com sucesso!");
+            // Verificar se o componente já existe com base no ID
+            if (componentes.Any(c => c.ID == novoComponente.ID))
+            {
+                Console.WriteLine($"Já existe um componente com o ID {novoComponente.ID}. Não foi possível adicionar.");
+            }
+            else
+            {
+                // Adicionar o novo componente
+                componentes.Add(novoComponente);
+                Console.WriteLine("Componente adicionado com sucesso!");
+            }
         }
+
 
         // Método para listar todos os componentes
         public static void ListarComponentes(List<Componente> componentes)

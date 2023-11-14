@@ -36,9 +36,17 @@ namespace Autoprem
         // Método para agendar um novo serviço de manutenção
         public static void AgendarServico(List<ServicoManutencao> servicos, ServicoManutencao novoServico)
         {
-            // Lógica para agendar um novo serviço
-            servicos.Add(novoServico);
-            Console.WriteLine("Serviço agendado com sucesso!");
+            // Verificar se o serviço já existe com base no ID
+            if (servicos.Any(s => s.ID == novoServico.ID))
+            {
+                Console.WriteLine($"Já existe um serviço com o ID {novoServico.ID}. Não foi possível agendar.");
+            }
+            else
+            {
+                // Adicionar o novo serviço
+                servicos.Add(novoServico);
+                Console.WriteLine("Serviço agendado com sucesso!");
+            }
         }
 
         // Método para listar todos os serviços agendados
