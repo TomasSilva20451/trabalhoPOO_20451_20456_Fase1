@@ -66,7 +66,7 @@ namespace Autoprem
         // Sobrescrevendo o método ToString para formatar a exibição de um componente
         public override string ToString()
         {
-            return $"ID: {ID}, Nome: {Nome}, Preço: {Preco:€}";
+            return $"ID: {ID}, Nome: {Nome}, Preço: {Preco} €";
         }
 
 
