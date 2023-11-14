@@ -19,7 +19,7 @@ Uma aplicação para a gestão de vendas de veículos, peças e serviços no set
 
 ## Dependências
 
-- .NET Core 7.1
+- .NET Core 7.0
 
 ## Como Contribuir
 
