@@ -11,11 +11,38 @@ Uma aplicação para a gestão de vendas de veículos, peças e serviços no set
 
 ## Estrutura do Projeto
 
-- `Program.cs`: Ponto de entrada do aplicativo.
-- `Veiculo.cs`: Classe para representar um veículo.
-- `Componente.cs`: Classe para representar um componente.
-- `Funcionario.cs`: Classe para representar um funcionário.
-- `ServicoManutencao.cs`: Classe para representar um serviço de manutenção.
+O projeto AUTOPREM possui a seguinte estrutura:
+
+Program.cs: Ponto de entrada do aplicativo.
+
+Veiculos:
+
+Veiculo.cs: Classe para representar um veículo.
+Componentes:
+
+Componente.cs: Classe para representar um componente.
+ComponenteConcreto.cs: Classe concreta que herda de Componente. Representa um componente específico.
+Funcionarios:
+
+Funcionario.cs: Classe para representar um funcionário.
+Manutencoes:
+
+ManutencaoCarro.cs: Classe para representar a manutenção de um carro. Herda de Veiculo.
+ManutencaoMoto.cs: Classe para representar a manutenção de uma moto. Herda de Veiculo.
+Servicos:
+
+Servico.cs: Classe base para representar um serviço genérico.
+ServicoManutencao.cs: Classe para representar um serviço de manutenção. Herda de Servico.
+
+##Observações:
+
+Encapsulamento: As classes foram projetadas com propriedades e métodos encapsulados, garantindo controle sobre o acesso aos dados internos.
+
+Herança: A herança foi utilizada nas classes ManutencaoCarro e ManutencaoMoto, que herdam da classe Veiculo. Também foi utilizada na classe ServicoManutencao, que herda da classe base Servico.
+
+Polimorfismo: O polimorfismo é demonstrado no uso de listas de veículos genéricos que podem conter instâncias de classes derivadas, como ManutencaoCarro e ManutencaoMoto. O método RealizarManutencao() é chamado de maneira polimórfica.
+
+Abstração: A abstração é evidenciada na classe abstrata Componente, que define um método abstrato RealizarManutencao(), permitindo que subclasses concretas forneçam implementações específicas.
 
 ## Dependências
 
