@@ -18,7 +18,7 @@ namespace Autoprem
             : base(id, marca, modelo, preco)
         {
             // Construtor de ManutencaoCarro
-            Console.WriteLine($"Criando um novo ManutencaoCarro com ID: {id}");
+            // Console.WriteLine($"Criando um novo ManutencaoCarro com ID: {id}");
         }
 
         // Sobrescrever o metodo para realizar manutencao em carros

@@ -21,7 +21,7 @@ namespace Autoprem
             : base(id, nome, preco)
         {
             // Adicionar a lógica específica para a inicialização de ComponenteConcreto
-            Console.WriteLine($"Criando um novo ComponenteConcreto com ID: {id}");
+            //Console.WriteLine($"Criando um novo ComponenteConcreto com ID: {id}");
             
         }
 
