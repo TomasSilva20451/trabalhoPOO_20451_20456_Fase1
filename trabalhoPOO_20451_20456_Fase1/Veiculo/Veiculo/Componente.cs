@@ -2,7 +2,7 @@
  * @file Componente.cs
  * @author Tomás (a20451@alunos.ipca.pt)
  * @author Telmo (a20456@alunos.ipca.pt)
- * @brief Classe que representa um Componente
+ * @brief Classe abstrata que representa um Componente genérico
  * @version 0.1
  * @date 2023-11-14
  * 
@@ -14,7 +14,8 @@ using System.Collections.Generic;
 
 namespace Autoprem
 {
-	public class Componente
+    // Classe abstrata para representar um componente genérico
+    public abstract class Componente
     {
         // Propriedades da classe Componente
         public int ID { get; set; }
@@ -28,6 +29,9 @@ namespace Autoprem
             Nome = nome;
             Preco = preco;
         }
+
+        // Método abstrato para realizar a manutenção do componente
+        public abstract void RealizarManutencao();
 
         // Método para adicionar um novo componente
         public static void AdicionarComponente(List<Componente> componentes, Componente novoComponente)

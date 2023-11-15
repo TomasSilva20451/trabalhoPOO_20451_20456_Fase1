@@ -14,23 +14,16 @@ using System.Collections.Generic;
 
 namespace Autoprem
 {
-	public class ServicoManutencao
-	{
+	public class ServicoManutencao : Servico
+    {
         // Propriedades da classe ServicoManutencao
-        public int ID { get; set; }
-        public DateTime DataAgendamento { get; set; }
-        public string Cliente { get; set; }
         public Veiculo Veiculo { get; set; }
-        public decimal Custo { get; set; }
 
         // Construtor para criar instâncias de ServicoManutencao
         public ServicoManutencao(int id, DateTime dataAgendamento, string cliente, Veiculo veiculo, decimal custo)
+            : base(id, dataAgendamento, cliente, custo)
         {
-            ID = id;
-            DataAgendamento = dataAgendamento;
-            Cliente = cliente;
             Veiculo = veiculo;
-            Custo = custo;
         }
 
         // Método para agendar um novo serviço de manutenção
@@ -69,7 +62,7 @@ namespace Autoprem
         // Sobrescrevendo o método ToString para formatar a exibição de um serviço de manutenção
         public override string ToString()
         {
-            return $"ID: {ID}, Data de Agendamento: {DataAgendamento}, Cliente: {Cliente}, Veículo: {Veiculo.Marca} {Veiculo.Modelo}, Custo: {Custo:C}";
+            return $"ID: {ID}, Data de Agendamento: {DataAgendamento}, Cliente: {Cliente}, Veículo: {Veiculo.Marca} {Veiculo.Modelo}, Custo: {Custo} €";
         }
 
     }

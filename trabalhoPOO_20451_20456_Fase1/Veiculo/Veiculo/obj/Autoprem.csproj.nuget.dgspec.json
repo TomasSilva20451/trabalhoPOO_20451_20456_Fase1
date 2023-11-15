@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tomassilva/Desktop/POO/trabalhos/trabalhoPOO_20451_20456_Fase1/Veiculo/Veiculo/Autoprem.csproj": {}
+    "/Users/tomassilva/Desktop/POO/trabalhos/Trab_Pratico_POO_LESI_Fase1_20451_20456/Veiculo/Veiculo/Autoprem.csproj": {}
   },
   "projects": {
-    "/Users/tomassilva/Desktop/POO/trabalhos/trabalhoPOO_20451_20456_Fase1/Veiculo/Veiculo/Autoprem.csproj": {
+    "/Users/tomassilva/Desktop/POO/trabalhos/Trab_Pratico_POO_LESI_Fase1_20451_20456/Veiculo/Veiculo/Autoprem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tomassilva/Desktop/POO/trabalhos/trabalhoPOO_20451_20456_Fase1/Veiculo/Veiculo/Autoprem.csproj",
+        "projectUniqueName": "/Users/tomassilva/Desktop/POO/trabalhos/Trab_Pratico_POO_LESI_Fase1_20451_20456/Veiculo/Veiculo/Autoprem.csproj",
         "projectName": "Autoprem",
-        "projectPath": "/Users/tomassilva/Desktop/POO/trabalhos/trabalhoPOO_20451_20456_Fase1/Veiculo/Veiculo/Autoprem.csproj",
+        "projectPath": "/Users/tomassilva/Desktop/POO/trabalhos/Trab_Pratico_POO_LESI_Fase1_20451_20456/Veiculo/Veiculo/Autoprem.csproj",
         "packagesPath": "/Users/tomassilva/.nuget/packages/",
-        "outputPath": "/Users/tomassilva/Desktop/POO/trabalhos/trabalhoPOO_20451_20456_Fase1/Veiculo/Veiculo/obj/",
+        "outputPath": "/Users/tomassilva/Desktop/POO/trabalhos/Trab_Pratico_POO_LESI_Fase1_20451_20456/Veiculo/Veiculo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tomassilva/.nuget/NuGet/NuGet.Config"

@@ -16,9 +16,25 @@ namespace Autoprem
 {
 	public class Veiculo
 	{
+        /// <summary>
+        /// No caso da remoção do set da propriedade ID,
+        /// estamos encapsulando o acesso a esse atributo,
+        /// permitindo que ele seja definido apenas dentro da própria classe.
+        /// Isso ajuda a manter o estado consistente e a aplicar lógica específica,
+        /// se necessário, ao modificar esse valor.
+        /// Portanto, é uma prática sólida de encapsulamento.
+        /// </summary>
 
-        // Propriedades da classe Veiculo
-        public int ID { get; set; }
+        // Campo privado para ID
+        private int id;
+
+        // Propriedade pública somente leitura para ID
+        public int ID
+        {
+            get { return id; }
+        }
+
+        // Propriedades públicas para acessar Marca, Modelo e Preco
         public string Marca { get; set; }
         public string Modelo { get; set; }
         public decimal Preco { get; set; }
@@ -26,10 +42,17 @@ namespace Autoprem
         // Construtor para criar instâncias de Veiculo
         public Veiculo(int id, string marca, string modelo, decimal preco)
         {
-            ID = id;
+            this.id = id;
             Marca = marca;
             Modelo = modelo;
             Preco = preco;
+        }
+
+        // Método polimórfico para realizar manutenção
+        public virtual void RealizarManutencao()
+        {
+            Console.WriteLine($"Realizando manutenção no veículo {Marca} {Modelo}");
+            // Adicionar a lógica de manutenção específica para veículos
         }
 
         // Método para adicionar um novo veículo

@@ -26,7 +26,7 @@ namespace Autoprem
 
             // Criar instâncias das classes
             Veiculo veiculo1 = new Veiculo(1, "Toyota", "Supra", 75000);
-            Componente componente1 = new Componente(101, "Bateria", 100);
+            Componente componente1 = new ComponenteConcreto(101, "Bateria", 100);
             Funcionario funcionario1 = new Funcionario(1001, "João Silva", "Mecânico");
             ServicoManutencao servico1 = new ServicoManutencao(10001, DateTime.Now.AddDays(1), "Carlos Oliveira", veiculo1, 150);
 
@@ -48,6 +48,18 @@ namespace Autoprem
 
             Console.WriteLine("\nInformações do Serviço Agendado:\n");
             ServicoManutencao.ListarServicos(servicos);
+
+            // Exemplo de utilização do Polimorfismo
+            List<Veiculo> veiculosPolimorfismo = new List<Veiculo>();
+            veiculosPolimorfismo.Add(new ManutencaoCarro(2, "Toyota", "Corolla", 25000.00m));
+            veiculosPolimorfismo.Add(new ManutencaoMoto(3, "Honda", "CBR", 12000.00m));
+
+            Console.WriteLine("\nExemplo de utilização do polimorfismo:\n");
+            foreach (var veiculo in veiculosPolimorfismo)
+            {
+                veiculo.RealizarManutencao(); // Chama o método polimórfico
+                Console.WriteLine();
+            }
 
             Console.ReadLine(); // Aguardar antes de fechar o console
         }
