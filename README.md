@@ -16,25 +16,20 @@ O projeto AUTOPREM possui a seguinte estrutura:
 Program.cs: Ponto de entrada do aplicativo.
 
 Veiculos:
-
 **Veiculo.cs:** Classe para representar um veículo.
 
 Componentes:
-
 **Componente.cs:** Classe para representar um componente.
 **ComponenteConcreto.cs:** Classe concreta que herda de Componente. Representa um componente específico.
 
 Funcionarios:
-
 **Funcionario.cs:** Classe para representar um funcionário.
 
 Manutencoes:
-
 **ManutencaoCarro.cs:** Classe para representar a manutenção de um carro. Herda de Veiculo.
 **ManutencaoMoto.cs:** Classe para representar a manutenção de uma moto. Herda de Veiculo.
 
 Servicos:
-
 **Servico.cs:** Classe base para representar um serviço genérico.
 **ServicoManutencao.cs:** Classe para representar um serviço de manutenção. Herda de Servico.
 
