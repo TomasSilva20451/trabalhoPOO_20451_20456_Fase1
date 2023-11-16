@@ -1,6 +1,6 @@
 # AUTOPREM - Software de Gestão Automóvel
 
-Uma aplicação para a gestão de vendas de veículos, peças e serviços no setor automotivo.
+Uma aplicação para a gestão de vendas de veículos, peças e serviços no setor automóvel.
 
 ## Instruções de Instalação
 
