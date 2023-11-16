@@ -2,6 +2,8 @@
 
 Uma aplicação para a gestão de vendas de veículos, peças e serviços no setor automóvel.
 
+O AUTOPREM é uma solução abrangente projetada para simplificar e melhorar a experiência no setor automóvel. Esta aplicação oferece aos clientes a capacidade de explorar, comprar e agendar serviços para veículos e peças. Ao mesmo tempo, proporciona aos funcionários um sistema eficiente para gerir informações, com ênfase na usabilidade e eficácia. O AUTOPREM promove uma experiência segura, oferecendo funcionalidades essenciais para clientes e funcionários.
+
 ## Instruções de Instalação
 
 1. Clone o repositório para sua máquina local.
