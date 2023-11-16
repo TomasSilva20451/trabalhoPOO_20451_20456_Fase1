@@ -6,7 +6,7 @@ Uma aplicação para a gestão de vendas de veículos, peças e serviços no set
 
 1. Clone o repositório para sua máquina local.
 2. Certifique-se de ter o ambiente de desenvolvimento C# configurado.
-3. Abra o projeto no Visual Studio ou em sua IDE preferida.
+3. Abra o projeto no Visual Studio ou na sua IDE preferida.
 4. Compile e execute o projeto.
 
 ## Estrutura do Projeto
@@ -26,22 +26,22 @@ Funcionarios:
 **Funcionario.cs:** Classe para representar um funcionário.
 
 Manutencoes:
-**ManutencaoCarro.cs:** Classe para representar a manutenção de um carro. Herda de Veiculo.
-**ManutencaoMoto.cs:** Classe para representar a manutenção de uma moto. Herda de Veiculo.
+**ManutencaoCarro.cs:** Classe para representar a manutenção de um carro.
+**ManutencaoMoto.cs:** Classe para representar a manutenção de uma moto. 
 
 Servicos:
 **Servico.cs:** Classe base para representar um serviço genérico.
-**ServicoManutencao.cs:** Classe para representar um serviço de manutenção. Herda de Servico.
+**ServicoManutencao.cs:** Classe para representar um serviço de manutenção.
 
 ## Obeservações
 
-Encapsulamento: As classes foram projetadas com propriedades e métodos encapsulados, garantindo controle sobre o acesso aos dados internos.
+Encapsulamento: As classes foram projetadas com as propriedades e métodos encapsulados, garantindo controlo sobre o acesso aos dados internos.
 
 Herança: A herança foi utilizada nas classes ManutencaoCarro e ManutencaoMoto, que herdam da classe Veiculo. Também foi utilizada na classe ServicoManutencao, que herda da classe base Servico.
 
-Polimorfismo: O polimorfismo é demonstrado no uso de listas de veículos genéricos que podem conter instâncias de classes derivadas, como ManutencaoCarro e ManutencaoMoto. O método RealizarManutencao() é chamado de maneira polimórfica.
+Polimorfismo: O polimorfismo é evidenciado no uso de listas de veículos genéricas que podem conter instâncias de classes derivadas, como ManutencaoCarro e ManutencaoMoto. O método RealizarManutencao() é chamado de maneira polimórfica.
 
-Abstração: A abstração é evidenciada na classe abstrata Componente, que define um método abstrato RealizarManutencao(), permitindo que subclasses concretas forneçam implementações específicas.
+Abstração: A abstração é evidenciada na classe abstrata Componente, que define um método abstrato RealizarManutencao(), permitindo que as subclasses concretas forneçam implementações específicas.
 
 ## Dependências
 
